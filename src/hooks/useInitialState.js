@@ -11,10 +11,10 @@ const useInitialState = () => {
         })
     }
 
-    const removeFromCart = payload => {
+    const removeFromCart = (_payload, indexToRemove) => { // con guion bajo indico que el parametro no sera utilizado
         setState({
             ...state,
-            cart: state.cart.filter(item => item.id != payload),
+            cart: state.cart.filter((_item, indexCurrent) => indexCurrent !== indexToRemove),
         })
     }
 
