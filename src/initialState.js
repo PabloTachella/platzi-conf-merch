@@ -1,6 +1,16 @@
 export default {
     cart: [],
-    buyer: [],
+    buyer: [{
+      'name': 'Juan',
+      'email': 'juan@gmai.com',
+      'address': 'Rivadavia 15880',
+      'apto': '',
+      'city': 'Haedo',
+      'country': 'Argentina',
+      'state': 'Argentina',
+      'cp': '1706',
+      'phone': '1122334455',
+    }],
     orders: [],
     products: [
       {
