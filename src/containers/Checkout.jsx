@@ -1,8 +1,15 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import Meta from "../seo/Meta";
 import AppContext from "../context/AppContext";
 import { handleSumTotal } from "../utils";
 import '../styles/components/Checkout.css'
+
+const meta = (
+    <Meta
+        title="Checkout"
+    />
+)
 
 const Checkout = () => {
 
@@ -14,6 +21,8 @@ const Checkout = () => {
     }
 
     return (
+        <>
+        {meta}
         <div className="Checkout">
             <div className="Checkout-content">
                 <h3>{cart.length > 0 ? `Lista de Pedidos:` : `Sin Pedidos`}</h3>
@@ -38,6 +47,7 @@ const Checkout = () => {
                 </div>
             )}
         </div>
+        </>
     )
 }
 
