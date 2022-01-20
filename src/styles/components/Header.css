@@ -1,6 +1,11 @@
 .Header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 2;
   }
   .Header-checkout {
     display: flex;
@@ -8,7 +13,6 @@
     align-items: center;
     justify-items: center;
     width: 30px;
-    margin: 0 0 0 0.5em;
   }
   .Header-alert {
     color: #33b13a;
@@ -18,5 +22,17 @@
   .Header a {
     text-decoration: none;
     color: #33b1ff;
+  }
+
+  @media (max-width: 479px) {
+    .Header a {
+      font-size: 0.7em;
+    }
+    .Header-title {
+      margin: 0;
+    }
+    .Header-checkout {
+      margin-top: 0.5em;
+    }
   }
   
