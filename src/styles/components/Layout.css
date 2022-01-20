@@ -8,8 +8,21 @@ body {
 }
 
 .Main {
-  padding: 10px;
+  padding: 10px 40px;
   grid-template-columns: minmax(auto, 768px);
   display: grid;
   justify-content: center;
+}
+
+
+@media (max-width: 479px) {
+  .Main {
+    grid-template-columns: minmax(auto, 340px);
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .Main {
+    grid-template-columns: minmax(auto, 659px);
+    padding: 10px 20px;
+  }
 }
