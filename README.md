@@ -12,10 +12,10 @@ Visitalo en [platzi-conf-merch-bb193.web.app](https://platzi-conf-merch-bb193.we
 
 ## Contenido
 
-- [ Construcción del proyecto ](#construccion-del-proyecto)
+- [ Construcción del proyecto ](#construcción-del-proyecto)
     - [ React.js ](#react-js) 
-    - [ Integración con Paypal y Google Maps ](#integracion-con-paypal-y-google-maps) 
-    - [ Firebase como  Hosting ](#firebase-como-hosting)
+    - [ Integración con Paypal y Google Maps ](#integración-con-paypal-y-google-maps) 
+    - [ Firebase como Hosting ](#firebase-como-hosting)
     - [ Github Actions ](#github-actions)
     - [ SEO con Helmet ](#seo-con-helmet)
     - [ PWA ](#pwa)
@@ -35,7 +35,7 @@ Construido con React.js, éste sitio web hace uso de las siguientes tecnologías
 
 El proyecto cuenta con la configuración necesaria para integrar Paypal como medio de pago y Google Maps para mostrar al comprador su dirección en un mapa una vez realizada la compra. (Las credenciales de desarrollador no fueron agregadas pero si se desea hacer uso de este código solo basta con pasarlas mediante un archivo .env)
 
-### Firebase como  Hosting
+### Firebase como Hosting
 
 El sitio web se encuentra alojado en un Hosting de Firebase, el cual brinda los siguientes dominios para su visualización:
 
